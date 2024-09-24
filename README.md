@@ -1,6 +1,7 @@
 
 # SwiftUI Weather App
 A weather forecasting app built using SwiftUI and the Open-Meteo API. The app provides both daily and hourly weather forecasts, with a user-friendly interface and city search functionality.
+The app follows the MVVM (Model-View-ViewModel) architecture, ensuring a clear separation of concerns, with the ViewModel handling business logic and API calls, while the View focuses on presenting data and responding to user interactions.
 
 # Features
 - City Search: Search for cities with autocomplete suggestions using MKLocalSearchCompleter.
